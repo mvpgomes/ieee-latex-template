@@ -54,7 +54,7 @@ To create a new section, you first need to create a file in this folder.
 The easiest way to do this, is to create a new file file:
 
 ```sh
-$ touch section/your_section_name.tex
+$ touch sections/your_section_name.tex
 ```
 
 In the new file, change the section's title and label.
