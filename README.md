@@ -22,7 +22,7 @@ I you use Atom (that is my case) the following ones are available:
 ## Usage
 To use this template, you can simply fork or copy this repository and start working on it.
 
-### Stating your Article
+### Starting your Article
 The first thing that you need to do is to update the article's title and author information at the ```variables.tex```
 file.
 
@@ -176,7 +176,7 @@ different. If you want to keep your article document structure more organized, w
 this template.
 
 ### Contribute
-This a open-source template and you can help to improve them.
+This an open-source template and you can help to improve them.
 
 If you detected some error(s) or have some suggestions to improve the document feel free to open an issue and make a pull request.
 
