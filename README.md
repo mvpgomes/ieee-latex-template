@@ -180,4 +180,5 @@ This an open-source template and you can help to improve them.
 
 If you detected some error(s) or have some suggestions to improve the document feel free to open an issue and make a pull request.
 
-Thanks to [@samfcmc](https://github.com/samfcmc) that provides some of the scripts used in this template.
+Thanks to [@samfcmc](https://github.com/samfcmc) who did most of the work. The scripts and general structure  of this template were based 
+oh his [llns-article-template](https://github.com/samfcmc/llncs-article-template).
