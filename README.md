@@ -4,7 +4,7 @@
 <!-- LaTeX Logo -->
 <img src="/figures/latex.png" width="200px" height="auto" hspace="20"/>
 <!-- IEEE Logo -->
-<img src="/figures/ieee.jpg" width="200px" height="auto" hspace="20"/>
+<img src="/figures/Ieee.jpg" width="200px" height="auto" hspace="20"/>
 </span>
 
 IEEEtran compliant LaTeX template. This document follows the official documentation provided at
