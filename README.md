@@ -1,9 +1,9 @@
 # IEEE-article-latex-template
 
-IEEEtran compliant LaTex template. This document follows the official documentation provided at
+IEEEtran compliant LaTeX template. This document follows the official documentation provided at
 the [IEEE](https://www.ieee.org/publications_standards/publications/authors/author_templates.html) and
 the documentation developed by Michael Shell, the IEEEtran original author that provided a guide
-``IEEEtran_HOWTO.pdf`` with all information needed to produce an IEEE compliant article in LaTex.
+``IEEEtran_HOWTO.pdf`` with all information needed to produce an IEEE compliant article in LateX.
 
 The default configurations for this template are:
 
@@ -11,9 +11,9 @@ The default configurations for this template are:
 \documentclass[journal,twocolumn,letterpaper,10pt]{IEEEtran}
 ```
 ## Requirements:
-* LaTex: This will depend on your Operating System. You have to check how to install all Latex packages for your OS.
-* Any text editor that supports LaTex (e.g. [Atom](https://atom.io/), [Sublime Text](http://www.sublimetext.com/), [Emacs](https://www.gnu.org/software/emacs/), etc.)
-* Latex plugins for your text editor (this is optional, but it will make your life easier).
+* LateX: This will depend on your Operating System. You have to check how to install all Latex packages for your OS.
+* Any text editor that supports LateX (e.g. [Atom](https://atom.io/), [Sublime Text](http://www.sublimetext.com/), [Emacs](https://www.gnu.org/software/emacs/), etc.)
+* LaTeX plugins for your text editor (this is optional, but it will make your life easier).
 I you use Atom (that is my case) the following ones are available:
   * [language-latex](https://atom.io/packages/language-latex)
   * [latex](https://atom.io/packages/latex)
@@ -111,18 +111,18 @@ To reference an acronym in the plural form you can use the following command:
 \glspl{<label>}
 ```
 
-The full documentation of the ```acronyms``` package is available at [LaTex Glossary Wiki](https://en.wikibooks.org/wiki/LaTeX/Glossary)
+The full documentation of the ```acronyms``` package is available at [LaTeX Glossary Wiki](https://en.wikibooks.org/wiki/LaTeX/Glossary)
 
 ## Compile
 You have some ways to create the final pdf:
 
 ### Using the text editor
 It depends on the text editor you are using.
-If you are using Atom and the LaTex plugin, just press
+If you are using Atom and the LaTeX plugin, just press
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd>
 
 ### Using the provided scripts
-If you have the complete Latex environment installed, you can run the ```toPDF.sh``` script to generate the PDF (```article.pdf```):
+If you have the complete LateX environment installed, you can run the ```toPDF.sh``` script to generate the PDF (```article.pdf```):
 ```
 $ sh toPDF.sh
 ```
@@ -148,7 +148,7 @@ And then you already can run Grunt:
 ```
 $ grunt
 ```
-Now you can edit you LaTex document. When you save the changes, your document will be compiled automatically.
+Now you can edit you LateX document. When you save the changes, your document will be compiled automatically.
 
 NOTE: If you are using grunt you must not delete the ```toPDF.sh``` and ```clean.sh``` because it uses those scripts.
 
@@ -168,7 +168,7 @@ $ make clean
 ### Using an online tool
 If you don't want to install anything and just want to use an online editor you can also use this template.
 
-For instance, [Overleaf](https://www.overleaf.com) is a LaTex online editor. You just need to create an account
+For instance, [Overleaf](https://www.overleaf.com) is a LateX online editor. You just need to create an account
 and import the files on this template to it, or use one of the IEEE templates that Overleaf provides.
 
 NOTE: If you chose to use a template already provided by Overleaf, the template structure will be a little
@@ -180,5 +180,5 @@ This an open-source template and you can help to improve them.
 
 If you detected some error(s) or have some suggestions to improve the document feel free to open an issue and make a pull request.
 
-Thanks to [@samfcmc](https://github.com/samfcmc) who did most of the work. The scripts and general structure  of this template were based 
+Thanks to [@samfcmc](https://github.com/samfcmc) who did most of the work. The scripts and general structure  of this template were based
 oh his [llns-article-template](https://github.com/samfcmc/llncs-article-template).
