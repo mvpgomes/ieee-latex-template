@@ -1,0 +1,52 @@
+% ------------------------------------------
+%  IEEE ARTICLE TEMPLATE
+% ------------------------------------------
+% Author(s):
+% Institution(s):
+% ------------------------------------------
+\documentclass[journal,twocolumn,letterpaper,10pt]{ieee-sty/IEEEtran}
+\usepackage[acronym]{glossaries}
+
+% Generates the acronyms list
+\makeglossaries
+
+% Acronyms list
+\input{acronyms/acronyms.tex}
+
+% ------------------------------------------
+%  MAIN DOCUMENT
+% ------------------------------------------
+\begin{document}
+
+% Variables file
+\input{variables.tex}
+
+% Article title
+\title{\Title}
+
+% Author(s) Name
+\author{\Authors\\
+        \Institutions}
+
+\maketitle
+
+% Abstract
+\input{abstract/abstract.tex}
+
+% Keywords
+\input{keywords/keywords.tex}
+
+% Sections
+\input{sections/main.tex}
+
+% Print the acronyms list
+\printglossaries
+
+\if\hasBibliography 1
+% Bibliography
+\bibliographystyle{IEEEtran}
+% Bibliography file
+\bibliography{IEEEabrv,bibliography/article}
+\fi
+
+\end{document}

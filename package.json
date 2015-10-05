@@ -1,0 +1,35 @@
+{
+  "name": "ieee-article-template",
+  "description": "Article Latex journal template. This template follows the IEEEtran standard (version 1.8) available at [Manuscript Templates for Conference Proceedings](http://www.ieee.org/conferences_events/conferences/publishing/templates.html). ",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvpgomes/ieee-article-template.git"
+  },
+  "keywords": [
+    "latex",
+    "template",
+    "IEEEtran"
+  ],
+  "author": "Marcus Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvpgomes/ieee-article-template/issues"
+  },
+  "homepage": "https://github.com/mvpgomes/ieee-article-template#readme",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-shell": "^1.1.2",
+    "load-grunt-tasks": "^3.2.0"
+  }
+}

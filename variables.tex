@@ -1,0 +1,26 @@
+%!TEX root = ./article.tex
+
+% Article Title
+\def \ArticleTitle{Article Title}
+
+% Author(s) Name(s)
+\def \AuthorA{Author Name}
+
+% Author(s) Email(s)
+\def \AuthorAemail{EmailA}
+
+% Institution(s) Name(s)
+\def \InstitutionA{Institution Name}
+
+% Article Title
+\newcommand {\Title} {\ArticleTitle}
+
+% Authors
+\newcommand {\Authors} {\IEEEauthorblockN{\AuthorA}}
+
+% Institution
+\newcommand {\Institutions} {\IEEEauthorblockA{\InstitutionA}\\
+                            Email: \AuthorAemail}
+
+% Variable to control if the bibliography must be include
+\def \hasBibliography{1}
