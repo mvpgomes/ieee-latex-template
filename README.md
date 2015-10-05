@@ -1,5 +1,12 @@
 # IEEE-article-latex-template
 
+<span>
+<!-- LaTeX Logo -->
+<img src="/figures/latex.png" width="200px" height="auto" hspace="20"/>
+<!-- IEEE Logo -->
+<img src="/figures/ieee.jpg" width="200px" height="auto" hspace="20"/>
+</span>
+
 IEEEtran compliant LaTeX template. This document follows the official documentation provided at
 the [IEEE](https://www.ieee.org/publications_standards/publications/authors/author_templates.html) and
 the documentation developed by Michael Shell, the IEEEtran original author that provided a guide
